@@ -25,7 +25,7 @@ const quizQuestions = [
     ],
   },
   {
-    question: "Who is the Auhtor of the 'Harry Potter' series?",
+    question: "Who is the Author of the 'Harry Potter' series?",
     answers: [
       { text: "William Shakespere", correct: false },
       { text: "Jane Austen", correct: false },
@@ -175,4 +175,5 @@ function restartQuiz() {
   resultScreen.classList.remove("active");
 
   startQuiz();
+
 }
